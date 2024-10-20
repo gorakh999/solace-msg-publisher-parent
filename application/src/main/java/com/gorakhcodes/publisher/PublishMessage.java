@@ -10,7 +10,7 @@ public class PublishMessage {
     @Autowired
     private SolaceSender solaceSender;
 
-    private String message = "Hi This is a Test Message";
+    private String message = "Hi This is a Test Message Again";
 
     public void someMethod() throws Exception {
         solaceSender.sendMessage(message);

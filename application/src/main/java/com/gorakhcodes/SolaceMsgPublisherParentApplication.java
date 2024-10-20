@@ -7,12 +7,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+
 public class SolaceMsgPublisherParentApplication implements CommandLineRunner {
 
 	@Autowired
 	private SolaceSender solaceSender;
 
-	private static String message = "Hi This is a Test Message";
+	private static String message = "Hi This is a Test Message Again";
 
 	public static void main(String[] args) {
 		SpringApplication.run(SolaceMsgPublisherParentApplication.class, args);
